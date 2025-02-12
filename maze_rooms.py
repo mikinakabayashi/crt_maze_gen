@@ -127,7 +127,7 @@ def display(rooms, north, west, south, east, cursor = None):
         print(row)
     if cursor is not None:
         print(cursor, end="  ")
-    print("Arrows: Move, q: Quit   ")
+    print("wasd: Move, q: Quit   ")
 
 
 def update_display(rooms, r_offset, r_width, center, erase=True):
